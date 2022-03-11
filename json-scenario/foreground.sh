@@ -7,4 +7,4 @@ echo "Logging into PostgreSQL"
 sudo -i -u postgres
 stty echo
 clear
-psql
+psql -U postgres

@@ -19,4 +19,5 @@ You could link to other learning resources here. What is a good next step for a 
 
 ## Sources
 
-- The loading animation in the beggining was inspired by [this katacoda](https://katacoda.com/scenario-examples/scenarios/displaying-progress-spinner).
+- Information regarding PostgreSQL and relational databases: https://www.postgresql.org/
+- The loading animation in the beginning was inspired by [this](https://katacoda.com/scenario-examples/scenarios/displaying-progress-spinner) katacoda.
