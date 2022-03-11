@@ -1,8 +1,8 @@
 {
-  "title": "New Scenario Template",
-  "description": "A simple scenario example.",
+  "title": "DWH JSON Katacoda",
+  "description": "Möglichkeiten zur Nutzung von JSON in relationalen DBs anhand von PostgreSQL",
   "difficulty": "Beginner",
-  "time": "3 minutes",
+  "time": "5 minutes",
   "details": {
     "steps": [
       {
@@ -27,7 +27,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor"
   },
   "backend": {
     "imageid": "ubuntu:2004"
