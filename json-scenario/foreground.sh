@@ -6,4 +6,3 @@ echo "Preparation done!"
 echo "Logging into PostgreSQL"
 sudo -i -u postgres
 psql
-stty echo
