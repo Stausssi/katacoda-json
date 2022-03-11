@@ -1,8 +1,15 @@
 # Heading for Step 3
 
-This is some text.
+Now that the installation completed, we can start with creating the database. For this Katacoda, we're using a single
+table.
 
-Here's a single line of runnable code:
+To create the table, run the following command:
 
-`printf 'Cello, world!\n\n'`{{execute}}
+```postgresql
+CREATE TABLE students
+(
 
+)
+```
+
+{{execute}}

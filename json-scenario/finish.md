@@ -1,4 +1,3 @@
-
 On the finish page, summarize what was just learned:
 
 - 3-4 bullets
@@ -7,7 +6,8 @@ On the finish page, summarize what was just learned:
 
 ## Table of Contents
 
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
+If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all
+the scenario titles, with links to each other.
 
 - Scenario A
 - Scenario B
@@ -15,9 +15,12 @@ If the scenario is part of a set of related scenarios, the table of contents wil
 
 ## Further Learning
 
-You could link to other learning resources here. What is a good next step for a learner who just completed this scenario?
+You could link to other learning resources here. What is a good next step for a learner who just completed this
+scenario?
 
 ## Sources
 
 - Information regarding PostgreSQL and relational databases: https://www.postgresql.org/
-- The loading animation in the beginning was inspired by [this](https://katacoda.com/scenario-examples/scenarios/displaying-progress-spinner) katacoda.
+- Information regarding JSON: https://www.json.org/json-en.html
+- The loading animation in the beginning was inspired
+  by [this](https://katacoda.com/scenario-examples/scenarios/displaying-progress-spinner) katacoda.

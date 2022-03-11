@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # shellcheck disable=SC2120
-show_progress()
-{
+show_progress() {
   echo -n "Updating packages"
   # shellcheck disable=SC2034
   local -r pid="${1}"
@@ -10,7 +9,7 @@ show_progress()
   local spinstr='\|/-'
   local temp
   while true; do
-    sudo grep -i "done" /root/update-finished &> /dev/null
+    sudo grep -i "done" /root/update-finished &>/dev/null
     if [[ "$?" -ne 0 ]]; then
       temp="${spinstr#?}"
       printf " [%c]  " "${spinstr}"
@@ -26,7 +25,7 @@ show_progress()
   echo "Packages updated!"
   echo -n "Installing PostgreSQL"
   while true; do
-    sudo grep -i "done" /root/install-finished &> /dev/null
+    sudo grep -i "done" /root/install-finished &>/dev/null
     if [[ "$?" -ne 0 ]]; then
       temp="${spinstr#?}"
       printf " [%c]  " "${spinstr}"

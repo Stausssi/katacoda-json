@@ -6,12 +6,12 @@
   "details": {
     "steps": [
       {
-        "title": "Introduction",
-        "text": "1_introduction.md"
+        "title": "Introduction to PostgreSQL",
+        "text": "1_PostgreSQL.md"
       },
       {
-        "title": "Step 2",
-        "text": "step2.md"
+        "title": "Introduction to JSON",
+        "text": "2_JSON.md"
       },
       {
         "title": "Step 3",
