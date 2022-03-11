@@ -17,4 +17,7 @@ If the scenario is part of a set of related scenarios, the table of contents wil
 
 You could link to other learning resources here. What is a good next step for a learner who just completed this scenario?
 
+## Quellen
 
+Folgende Quellen wurden bei der Erstellung dieses Katacodas genutzt:
+- https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart

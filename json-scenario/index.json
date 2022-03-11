@@ -1,8 +1,8 @@
 {
-  "title": "DWH JSON Katacoda",
-  "description": "Möglichkeiten zur Nutzung von JSON in relationalen DBs anhand von PostgreSQL",
+  "title": "JSON in PostgreSQL",
+  "description": "Benefits of and how to use JSON in a PostgreSQL database system",
   "difficulty": "Beginner",
-  "time": "5 minutes",
+  "time": "TBD.",
   "details": {
     "steps": [
       {
@@ -20,7 +20,8 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "foreground.sh"
+      "code": "foreground.sh",
+      "courseData": "background.sh"
     },
     "finish": {
       "text": "finish.md"

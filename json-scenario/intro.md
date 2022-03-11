@@ -1,20 +1,21 @@
-# Data Warehouse Katacoda JSON
+# The power of JSON in relational databases
 
-Prüfungsleistung DWH 6. Semester an der DHBW Stuttgart.
+This Katacoda demonstrates possibilities and advantages of using JavaScript Object Notation (JSON) in a relational database.
+A PostgreSQL database is used for demonstration purposes. Usually, most of the well known databases support JSON.
 
-## Beschreibung
+## Learning Objective
 
-Demonstration von Möglichkeiten zur Nutzung von JavaScript Object-Notation in relationalen Datenbanken.
-Hier wird eine PostgreSQL Datenbank verwendet
+- What is JSON?
+- Create JSON rows in a table in PostgreSQL
+- Insert and read JSON data points
+- Parse JSON in the SQL query itself
 
-## Lernpunkte
+## Prerequisites
+Since this course is meant for beginners, only basic knowledge in SQL and programming data structures (Maps, Lists) is required.
+No complex SQL statements are required.
 
-- Was ist JSON überhaupt?
-- Anlegen einer Tabelle mit JSON-Spalten in PostgreSQL
-- Hinzufügen von JSON-Datensätzen
-- Auslesen des gesamten JSON-Datensatzes
-- Auslesen einzelner Parameter des JSON-Datensatzes
+## Circumstances
+This Katacoda was created as a part of an exam in the class _Data Warehouse_ at [Corporate State University Stuttgart](https://www.dhbw-stuttgart.de/en/).
+The course was held by [Andreas Buckenhofer](https://www.katacoda.com/buckenhofer).
 
-## Vorausgesetze Skills
-
-Grundlegendes Wissen über SQL-Befehle
+## Let's get started!
