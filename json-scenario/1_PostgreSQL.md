@@ -26,4 +26,4 @@ But what is JSON exactly?
 
 ---
 
-**Click 'Next Step' to find out!**
+**'Continue' to find out!**
