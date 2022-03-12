@@ -9,7 +9,7 @@ The file has already been populated with values, but feel free to adjust the gra
 
 Same goes for Marys grades: `grades_mary.json`{{open}}
 
----
+# Inserting data
 
 If you are done manipulating the grade files to your liking, we can start inserting the two data points into the table.
 To retrieve the JSON content from the files, we are using a temporary variable and `cat`. Since our primary key
@@ -30,3 +30,11 @@ Let's do the same for Mary:
 INSERT INTO students (first_name, last_name, password, grades)
 VALUES ('Mary', 'Poppins', 'umbrella1234', :'grades_mary');
 ```{{execute}}
+
+# Retrieving JSON
+
+To retrieve the data and handle it in your application of choice, you can use a simple `SELECT` statement:
+
+`SELECT grades FROM students WHERE user_id=2;`{{execute}}
+
+Executing this statement will print the JSON of Marys grades. You can quit the window with `q`{{execute}}
