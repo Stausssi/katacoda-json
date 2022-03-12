@@ -16,15 +16,17 @@ A potential grade structure could look like this:
 {
   "grades": [
     {
-      "class": "grade",
+      "class": "grade"
+    },
+    {
       "module": {
-        "grade": 1,
+        "grade": 1.4,
         "classes": [
           {
-            "subclass_1": "grade"
+            "subclass_1": 1.0
           },
           {
-            "subclass_2": "grade"
+            "subclass_2": 1.8
           }
         ]
       }

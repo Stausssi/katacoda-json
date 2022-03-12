@@ -1,0 +1,18 @@
+[
+  {
+    "Python": 1.7
+  },
+  {
+    "Database II":{
+      "grade": 1.8,
+      "classes": [
+        {
+          "Database implementations": 1.6
+        },
+        {
+          "Data Warehouse": 2.0
+        }
+      ]
+    }
+  }
+]

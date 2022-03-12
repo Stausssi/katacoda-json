@@ -16,6 +16,14 @@
       {
         "title": "Creating a table with a JSON column",
         "text": "3_createTable.md"
+      },
+      {
+        "title": "Inserting and retrieving JSON data",
+        "text": "4_getJSON.md"
+      },
+      {
+        "title": "Parsing JSON directly in the query",
+        "text": "5_parseJSON.md"
       }
     ],
     "intro": {
@@ -32,6 +40,14 @@
           "file": "awaitInstall.sh",
           "target": "/usr/local/bin/",
           "chmod": "+x"
+        },
+        {
+          "file": "grades_john.json",
+          "target": "/root/"
+        },
+        {
+          "file": "grades_mary.json",
+          "target": "/root/"
         }
       ]
     }
