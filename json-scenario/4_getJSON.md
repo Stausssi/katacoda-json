@@ -37,4 +37,4 @@ To retrieve the data and handle it in your application of choice, you can use a 
 
 `SELECT grades FROM students WHERE user_id=2;`{{execute}}
 
-Executing this statement will print the JSON of Marys grades. You can quit the window with `q`{{execute}}
+Executing this statement will print the JSON of Marys grades.
