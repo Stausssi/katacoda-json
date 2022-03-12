@@ -44,12 +44,12 @@
         {
           "file": "grades_john.json",
           "target": "/root/",
-          "chmod": "+rw"
+          "chmod": "a+rw"
         },
         {
           "file": "grades_mary.json",
           "target": "/root/",
-          "chmod": "+rw"
+          "chmod": "a+rw"
         }
       ]
     }
