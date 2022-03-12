@@ -14,8 +14,8 @@
         "text": "2_JSON.md"
       },
       {
-        "title": "Step 3",
-        "text": "step3.md"
+        "title": "Creating a table with a JSON column",
+        "text": "3_createTable.md"
       }
     ],
     "intro": {

@@ -1,5 +1,3 @@
-# JSON
-
 > JSON (JavaScript Object Notation) is a lightweight data-interchange format [[2]](https://www.json.org/json-en.html)
 
 One of the main selling points of JSON is its structure. It can easily be read and written by both humans and computers.
