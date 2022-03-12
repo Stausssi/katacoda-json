@@ -18,7 +18,8 @@ To retrieve the JSON content from the files, we are using a temporary variable a
 ```postgresql
 \set grades_john `cat /root/grades_john.json`
 
-INSERT INTO students VALUES ('John', 'Doe', 'admin', :'grades_john');
+INSERT INTO students (first_name, last_name, password, grades)
+VALUES ('John', 'Doe', 'admin', :'grades_john');
 ```{{execute}}
 
 Let's do the same for Mary:
@@ -26,5 +27,6 @@ Let's do the same for Mary:
 ```postgresql
 \set grades_mary `cat /root/grades_mary.json`
 
-INSERT INTO students VALUES ('Mary', 'Poppins', 'umbrella1234', :'grades_mary');
+INSERT INTO students (first_name, last_name, password, grades)
+VALUES ('Mary', 'Poppins', 'umbrella1234', :'grades_mary');
 ```{{execute}}
