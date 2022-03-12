@@ -42,7 +42,7 @@ To create the table, run the following command. For the `grades` column we're us
 
 ```postgresql
 CREATE TABLE students (
-    user_id     INTEGER PRIMARY KEY NOT NULL,
+    user_id     SERIAL PRIMARY KEY,
     first_name  VARCHAR(50) NOT NULL,
     last_name   VARCHAR(50) NOT NULL,
     password    VARCHAR(200) NOT NULL,
