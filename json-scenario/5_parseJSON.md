@@ -8,21 +8,37 @@ different operators to directly parse JSON in your SQL query:
 If you know the key of the JSON-entry you want to select, you can use the `->` operator. A sample query could look like
 this:
 
-`SELECT grades -> 'Database II' FROM students WHERE user_id = 2;`{{execute}}
+```postgresql
+SELECT grades -> 'Database II' AS "Database II" 
+FROM students 
+WHERE user_id = 2;
+```{{execute}}
 
 If you're only interested in Marys overall grade in *Database II*, you can even chain the `->` operator:
 
-`SELECT grades -> 'Database II' -> 'grade' FROM students WHERE user_id = 2;`{{execute}}
+```postgresql
+SELECT grades -> 'Database II' -> 'grade' AS "Overall grade" 
+FROM students 
+WHERE user_id = 2;
+```{{execute}}
 
 Instead of chaining two `->` operators together, you can also use the `#>`operator. It requires you to specify a path of
 selections. The path has to be specified in curly brackets:
 
-`SELECT grades #> '{Database II, grade} FROM students WHERE user_id = 2;`{{execute}}
+```postgresql
+SELECT grades #> '{Database II, grade}' AS "Overall grade" 
+FROM students 
+WHERE user_id = 2;
+```{{execute}}
 
 If you want to access a list item, you can use the operators with an integer instead of a text. The integer specifies
 the index of the element you're trying to access:
 
-`SELECT grades #> '{Database II, classes, 1}' FROM students WHERE user_id = 2;`{{execute}}
+```postgresql
+SELECT grades #> '{Database II, classes, 0}' AS "Database Implementations" 
+FROM students 
+WHERE user_id = 2;
+```{{execute}}
 
 # 2. Get JSON as text
 
@@ -37,5 +53,11 @@ The path operator also has a text-variant: `#>>`
 You can also use all the JSON operators above in a WHERE-clause to filter your data. In this example, we only want the
 names of the students who passed the class *Data Warehouse*. with a very good grade:
 
-`SELECT first_name, last_name FROM students WHERE grades #> '{Database II, classes, 2, Data Warehouse}' <= 2;`{{execute}}
+```postgresql
+SELECT first_name, last_name 
+FROM students 
+WHERE CAST ( grades #> '{Database II, classes, 1, Data Warehouse}' AS NUMBER ) <= 2;
+```{{execute}}
 
+**Note:** We have to cast the value to a number. Otherwise, PostgreSQL can't compare the values.
+ 
