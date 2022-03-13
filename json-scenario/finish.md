@@ -1,22 +1,16 @@
-On the finish page, summarize what was just learned:
+Thank you for participating in this Katacoda!
 
-- 3-4 bullets
-- of what you just
-- did and learned
+You're now ready to use JSON in your database.
 
-## Table of Contents
-
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all
-the scenario titles, with links to each other.
-
-- Scenario A
-- Scenario B
-- Scenario C
+I've attached two more links containing even more material about JSON in PostgreSQL databases. Feel free to 
 
 ## Further Learning
 
-You could link to other learning resources here. What is a good next step for a learner who just completed this
-scenario?
+Another good tutorial concerning JSON in PostgreSQL can be
+followed [here](https://www.postgresqltutorial.com/postgresql-json/).
+
+The official PostgreSQL JSON documentation can be found [here](https://www.postgresql.org/docs/current/functions-json.html).
+It contains plenty more functions you can use in your database.
 
 ## Sources
 

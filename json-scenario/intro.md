@@ -1,8 +1,13 @@
 # The power of JSON in relational databases
 
 This Katacoda demonstrates possibilities and advantages of using JavaScript Object Notation (JSON) in a relational
-database. A PostgreSQL database is used for demonstration purposes. Usually, most of the well known databases support
-JSON.
+database. The main benefit of JSON in relational database is the additional flexibility when it comes to inserting and
+handling data with a flexible structure. It saves a lot of work needing to be done in a regular relational table and is
+way easier to overlook. A PostgreSQL database is used for demonstration purposes.
+
+First, you're given a quick introduction to PostgreSQL and JSON followed by a step-by-step tutorial showing you how to
+create a table with JSON columns. Afterwards, you'll learn how to insert JSON data into your table. Finally, you'll 
+learn how to extract and even parse the JSON directly in your SQL query.
 
 ## Learning Objective
 
@@ -22,4 +27,4 @@ This Katacoda was created as a part of an exam in the class _Data Warehouse_
 at [Corporate State University Stuttgart](https://www.dhbw-stuttgart.de/en/). The course was held
 by [Andreas Buckenhofer](https://www.katacoda.com/buckenhofer).
 
-## Let's get started!
+# Let's get started!
