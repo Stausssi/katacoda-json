@@ -1,21 +1,15 @@
-[
-  {
-    "Python": 1.7
-  },
-  {
-    "Advanced Software Engineering": 2.3
-  },
-  {
-    "Database II": {
-      "grade": 1.8,
-      "classes": [
-        {
-          "Database implementations": 1.6
-        },
-        {
-          "Data Warehouse": 2.0
-        }
-      ]
-    }
+{
+  "Python": 2.3,
+  "Advanced Software Engineering": 2.3,
+  "Database II": {
+    "grade": 1.8,
+    "classes": [
+      {
+        "Database implementations": 1.6
+      },
+      {
+        "Data Warehouse": 2.0
+      }
+    ]
   }
-]
+}

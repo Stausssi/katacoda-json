@@ -14,28 +14,24 @@ A potential grade structure could look like this:
 
 ```json
 {
-  "grades": [
-    {
-      "class": "grade"
-    },
-    {
-      "module": {
-        "grade": 1.4,
-        "classes": [
-          {
-            "subclass_1": 1.0
-          },
-          {
-            "subclass_2": 1.8
-          }
-        ]
-      }
+  "grades": {
+    "class": "grade",
+    "module": {
+      "grade": 1.4,
+      "classes": [
+        {
+          "subclass_1": 1.0
+        },
+        {
+          "subclass_2": 1.8
+        }
+      ]
     }
-  ]
+  }
 }
 ```
 
-Since the `grades` identifier is already supplied by the column in the database, we can just use the *list*
+Since the `grades` identifier is already supplied by the column in the database, we can just use the *collection*
 following `grades`.
 
 To create the table, run the following command. For the `grades` column we're using the datatype `JSON`.

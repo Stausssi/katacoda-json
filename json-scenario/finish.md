@@ -22,5 +22,6 @@ scenario?
 
 - Information regarding PostgreSQL and relational databases: https://www.postgresql.org/
 - Information regarding JSON: https://www.json.org/json-en.html
+- Step 5 - Parse JSON: https://www.postgresql.org/docs/9.3/functions-json.html
 - The loading animation in the beginning was inspired
   by [this](https://katacoda.com/scenario-examples/scenarios/displaying-progress-spinner) katacoda.

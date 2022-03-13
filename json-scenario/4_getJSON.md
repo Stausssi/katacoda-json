@@ -5,7 +5,8 @@ Let's start by opening the JSON-file for Johns grades:
 
 `grades_john.json`{{open}}
 
-The file has already been populated with values, but feel free to adjust the grades and maybe even add classes.
+The file has already been populated with values, but feel free to adjust the grades and maybe even add classes. **Please
+don't remove the '*Database II*' entry since we're going to use it in the next step!**
 
 Same goes for Marys grades: `grades_mary.json`{{open}}
 
