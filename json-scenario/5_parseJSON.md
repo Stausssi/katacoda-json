@@ -23,7 +23,7 @@ WHERE user_id = 2;
 ```{{execute}}
 
 Instead of chaining two `->` operators together, you can also use the `#>`operator. It requires you to specify a path of
-selections. The path has to be specified in curly brackets:
+selections. The path has to be enclosed in curly brackets:
 
 ```postgresql
 SELECT grades #> '{Database II, grade}' AS "Overall grade" 
@@ -54,10 +54,10 @@ You can also use all the JSON operators above in a WHERE-clause to filter your d
 names of the students who passed the class *Data Warehouse*. with a very good grade:
 
 ```postgresql
-SELECT first_name, last_name 
+SELECT first_name, last_name, grades #> '{Database II, classes, 1, Data Warehouse}' AS "grade"
 FROM students 
-WHERE CAST ( grades #> '{Database II, classes, 1, Data Warehouse}' AS NUMBER ) <= 2;
+WHERE CAST ( grades #>> '{Database II, classes, 1, Data Warehouse}' AS NUMERIC ) <= 2;
 ```{{execute}}
 
-**Note:** We have to cast the value to a number. Otherwise, PostgreSQL can't compare the values.
+**Note:** We have to cast the value to a number. Otherwise, PostgreSQL can't compare the values. 
  
