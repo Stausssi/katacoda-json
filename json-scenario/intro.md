@@ -3,10 +3,15 @@
 This Katacoda demonstrates possibilities and advantages of using JavaScript Object Notation (JSON) in a relational
 database. The main benefit of JSON in relational database is the additional flexibility when it comes to inserting and
 handling data with a flexible structure. It saves a lot of work needing to be done in a regular relational table and is
-way easier to overlook. A PostgreSQL database is used for demonstration purposes.
+way easier to overlook. A PostgreSQL database is used for demonstration purposes, but you can also use other database
+systems since JSON is part of the "ISO SQL Standard 2017, Part 6" [1] assuring at least the following functions: 
+- "JSON_EXISTS,
+- JSON_VALUE,
+- JSON_QUERY,
+- JSON_TABLE" [1]
 
 First, you're given a quick introduction to PostgreSQL and JSON followed by a step-by-step tutorial showing you how to
-create a table with JSON columns. Afterwards, you'll learn how to insert JSON data into your table. Finally, you'll 
+create a table with JSON columns. Afterwards, you'll learn how to insert JSON data into your table. Finally, you'll
 learn how to extract and even parse the JSON directly in your SQL query.
 
 ## Learning Objective
