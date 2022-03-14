@@ -2,7 +2,7 @@
   "title": "JSON in PostgreSQL",
   "description": "Benefits of and how to use JSON in a PostgreSQL database system",
   "difficulty": "Beginner",
-  "time": "TBD.",
+  "time": "5 minutes",
   "details": {
     "steps": [
       {
@@ -53,7 +53,7 @@
     }
   },
   "environment": {
-    "uilayout": "vscode-terminal-split"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "ubuntu:2004"
