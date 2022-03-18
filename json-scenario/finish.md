@@ -10,7 +10,7 @@ SQL statement. Inserting JSON into your database is as easy as inserting a Strin
 desire. To parse the JSON directly in your SQL query, remember the operators `->` and `#>` to retrieve JSON objects,
 and `-->` and `#>>` to convert the result into text.
 
-I've attached two more links containing even more material about JSON in PostgreSQL databases for further learning.
+I've attached three more links containing even more material about JSON in PostgreSQL databases for further learning.
 
 ## Further Learning
 

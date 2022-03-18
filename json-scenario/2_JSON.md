@@ -1,4 +1,4 @@
-> JSON (JavaScript Object Notation) is a lightweight data-interchange format [[2]](https://www.json.org/json-en.html)
+> JSON (JavaScript Object Notation) is a lightweight data-interchange format [[3]](https://www.json.org/json-en.html)
 
 One of the main selling points of JSON is its structure. It can easily be read and written by both humans and computers.
 Even tho JSON contains the programming language JavaScript in its name, it's language independent and can be used in

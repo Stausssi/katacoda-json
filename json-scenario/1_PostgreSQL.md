@@ -2,7 +2,7 @@ First, we have to wait for the installation to complete. Meanwhile, let me tell 
 
 # PostgreSQL
 
-> PostgreSQL is a powerful, open source object-relation database system [[1]](https://www.postgresql.org/)
+> PostgreSQL is a powerful, open source object-relation database system [[2]](https://www.postgresql.org/)
 
 In a relational database, the information is strictly structured in tables. These tables usually have a name and
 multiple columns specifying which kind of information is saved in it. For instance, a relational table might look like

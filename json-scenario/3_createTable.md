@@ -1,5 +1,5 @@
-Now that you know the basics about PostgreSQL and JSON, we can start with creating the database. For this Katacoda,
-we're using a single table. Our *users* table from the first two steps is now extended with a column *grades* and is
+Now that you know the basics about PostgreSQL and JSON, we can start creating the database. For this Katacoda,
+we're using a single table. Our *users* table from the first two steps is now extended with the column *grades* and is
 therefore renamed to *students*.
 
 But first, let's think about why JSON is a suited format for our grades:
@@ -15,7 +15,7 @@ A potential grade structure could look like this:
 ```json
 {
   "grades": {
-    "class": "grade",
+    "class": "overall_grade",
     "module": {
       "grade": 1.4,
       "classes": [
@@ -34,7 +34,7 @@ A potential grade structure could look like this:
 Since the `grades` identifier is already supplied by the column in the database, we can just use the *collection*
 following `grades`.
 
-To create the table, run the following command. For the `grades` column we're using the datatype `JSON`.
+To create the table, run the following command.
 
 ```postgresql
 CREATE TABLE students (
@@ -45,6 +45,8 @@ CREATE TABLE students (
     grades      JSON NOT NULL
 );
 ```{{execute}}
+
+As you can see, we're using the datatype `JSON` for the `grades` column.
 
 To check whether the table was created successfully, we can run the following command:
 

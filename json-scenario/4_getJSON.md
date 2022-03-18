@@ -13,8 +13,8 @@ Same goes for Marys grades: `grades_mary.json`{{open}}
 # Inserting data
 
 If you are done manipulating the grade files to your liking, we can start inserting the two data points into the table.
-To retrieve the JSON content from the files, we are using a temporary variable and `cat`. Since our primary key
-*user_id* is generated automatically, we don't need to specify it.
+To retrieve the JSON content from the files, we are using a temporary variable and the command-line tool `cat`. Since
+our primary key *user_id* is generated automatically, we don't need to specify it.
 
 ```postgresql
 \set grades_john `cat /root/grades_john.json`
