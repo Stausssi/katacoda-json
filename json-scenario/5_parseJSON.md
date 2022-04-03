@@ -14,7 +14,7 @@ FROM students
 WHERE user_id = 2;
 ```{{execute}}
 
-If you're only interested in Marys overall grade in *Database II*, you can even chain the `->` operator:
+If you're only interested in Marys overall grade in *Database II*, you can chain multiple `->` operators:
 
 ```postgresql
 SELECT grades -> 'Database II' -> 'grade' AS "Overall grade" 
