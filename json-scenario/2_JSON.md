@@ -6,7 +6,7 @@ every programming language.
 
 ## Data structures
 
-Every JSON documents is built by using the two structures of JSON: A **collection** of key/value pairs and a **list** of
+Every JSON document is built using the two structures of JSON: A **collection** of key/value pairs and a **list** of
 values. These two structures can be nested however you want to achieve your goals.
 
 ### Collection
