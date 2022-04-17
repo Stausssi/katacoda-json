@@ -8,7 +8,7 @@ Learning* for more information.
 After covering the basics of relational databases and JSON, we've created a table containing a JSON column with a simple
 SQL statement. Inserting JSON into your database is as easy as inserting a String, Integer, or whatever datatype you
 desire. To parse the JSON directly in your SQL query, remember the operators `->` and `#>` to retrieve JSON objects,
-and `-->` and `#>>` to convert the result into text.
+and `->>` and `#>>` to convert the result into text.
 
 I've attached three more links containing even more material about JSON in PostgreSQL databases for further learning.
 
@@ -25,10 +25,10 @@ If you want to learn how to define a structure for your JSON data, read [here](h
 
 ## Sources
 
-- [1]: Data Warehouse lecture held by [Andreas Buckenhofer](https://www.katacoda.com/buckenhofer), Script
-  02Architecture, Slide 46
-- Information regarding PostgreSQL and relational databases: https://www.postgresql.org/
-- Information regarding JSON: https://www.json.org/json-en.html
-- Step 5 - Parse JSON: https://www.postgresql.org/docs/current/functions-json.html
-- The loading animation in the beginning was inspired
+1. Data Warehouse lecture held by [Andreas Buckenhofer](https://www.katacoda.com/buckenhofer), Script
+2. 02Architecture, Slide 46
+3. Information regarding PostgreSQL and relational databases: https://www.postgresql.org/
+4. Information regarding JSON: https://www.json.org/json-en.html
+5. Step 5 - Parse JSON: https://www.postgresql.org/docs/current/functions-json.html
+6. The loading animation in the beginning was inspired
   by [this](https://katacoda.com/scenario-examples/scenarios/displaying-progress-spinner) katacoda.

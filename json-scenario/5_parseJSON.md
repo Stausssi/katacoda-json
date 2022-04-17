@@ -43,7 +43,7 @@ WHERE user_id = 2;
 # 2. Get JSON as text
 
 If you're fine with the returned data being a text instead of a JSON object, you can simply exchange the `->` operator
-with `-->`. Keep in mind that you won't be able to use another JSON operator after `-->` since the returned object is
+with `->>`. Keep in mind that you won't be able to use another JSON operator after `->>` since the returned object is
 not JSON anymore.
 
 The path operator also has a text-variant: `#>>`
