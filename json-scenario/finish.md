@@ -25,10 +25,8 @@ If you want to learn how to define a structure for your JSON data, read [here](h
 
 ## Sources
 
-1. Data Warehouse lecture held by [Andreas Buckenhofer](https://www.katacoda.com/buckenhofer), Script
-2. 02Architecture, Slide 46
+1. Data Warehouse lecture held by [Andreas Buckenhofer](https://www.katacoda.com/buckenhofer), Script 02Architecture, Slide 46
 3. Information regarding PostgreSQL and relational databases: https://www.postgresql.org/
 4. Information regarding JSON: https://www.json.org/json-en.html
 5. Step 5 - Parse JSON: https://www.postgresql.org/docs/current/functions-json.html
-6. The loading animation in the beginning was inspired
-  by [this](https://katacoda.com/scenario-examples/scenarios/displaying-progress-spinner) katacoda.
+6. The loading animation in the beginning was inspired by [this](https://katacoda.com/scenario-examples/scenarios/displaying-progress-spinner) katacoda.
